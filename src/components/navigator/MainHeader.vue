@@ -5,6 +5,7 @@
                 <!-- <v-list-item prepend-icon="mdi-home-circle"> -->
                 <v-list-item prepend-icon="mdi-home-circle">
                     {{ route.name }}
+                    <!-- 구글 머테리얼 디자인 링크:: https://pictogrammers.com/library/mdi/category/account-user/ -->
                     <!-- <v-list-item-icon v-bind:src="route.asset"></v-list-item-icon> -->
                     <!-- <v-list-item-content>{{ route.name }}</v-list-item-content> -->
                 </v-list-item>
