@@ -6,10 +6,12 @@ const routes = [
         path: "/",
         name: "home",
         component: HomeView,
+        asset: "/src/assets/img/icon/folder.png",
     },
     {
         path: "/about",
         name: "about",
+        asset: "mdi-account-multiple",
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
@@ -18,6 +20,7 @@ const routes = [
     {
         path: "/todoList",
         name: "todoList",
+        asset: "mdi-star",
         component: () => import(/* webpackChunkName: "about" */ "../views/TodoListView.vue"),
     },
 ];
