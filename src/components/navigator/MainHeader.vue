@@ -3,7 +3,7 @@
         <v-list density="compact" nav v-for="route in $router.options.routes" :key="route.path">
             <router-link :to="route.path" class="hyper-link" active-class="active-link">
                 <!-- <v-list-item prepend-icon="mdi-home-circle"> -->
-                <v-list-item prepend-icon="mdi-home-circle">
+                <v-list-item :prepend-icon="route.icon">
                     {{ route.name }}
                     <!-- 구글 머테리얼 디자인 링크:: https://pictogrammers.com/library/mdi/category/account-user/ -->
                     <!-- <v-list-item-icon v-bind:src="route.asset"></v-list-item-icon> -->
